@@ -1,0 +1,5 @@
+﻿##grflangid 0x01
+STR_GRF_NAME                                                    :All vehicles with longer expiration date
+STR_GRF_DESC                                                    :{ORANGE}All vehicles with longer expiration date{}{BLACK}This NewGRF is intended to provide a coding example for the high-level NewGRF-coding.
+STR_PARAM_MAX_DATE_NAME                                         :Introduction date last vehicle (plus 1948 years)
+STR_PARAM_MAX_DATE_DESC                                         :The introductiondates of the vehicles are equally divided till the max date.

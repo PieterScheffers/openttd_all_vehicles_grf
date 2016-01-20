@@ -1,0 +1,1 @@
+nmlc --grf ..\openttd_all_vehicles.grf openttd_all_vehicles.nml

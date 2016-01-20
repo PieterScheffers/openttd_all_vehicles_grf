@@ -1,0 +1,341 @@
+grf {
+	grfid: "PSC\01";
+	name: string(STR_GRF_NAME);
+	desc: string(STR_GRF_DESC);
+	version: 1;
+	min_compatible_version: 1;
+
+    param {
+    	/* The date the last vehicle gets introduced. The other vehicles are divided from 1948 onward. */
+
+        max_date {
+            type: int;
+            name: string(STR_PARAM_MAX_DATE_NAME);
+            desc: string(STR_PARAM_MAX_DATE_DESC);
+
+            min_value: 10;
+            max_value: 150000;
+            def_value: 80;
+        }
+    }
+}
+
+railtypetable {
+    RAIL, ELRL, MONO, MGLV,
+}
+
+item (FEAT_TRAINS, kirby_paul_tank, 00) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, mjs_250, 01) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 2), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, ploddyphut_choo_choo, 02) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 1), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, powernaut_choo_choo, 03) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 4), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, mightymover_choo_choo, 04) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 9), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, ploddyphut_diesel, 05) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 14), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, powernaut_diesel, 06) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 19), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, wills_280, 07) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 3), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, chaney_jubilee, 08) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 10), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, ginzu_a4, 09) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 15), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, sh_8p, 10) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 17), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, manley_morel_dmu, 11) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 8), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, dash, 12) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 13), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, sh_hendry_25, 13) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 16), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, uu_37, 14) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 18), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, floss_47, 15) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 20), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, cs4000, 16) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 5), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, cs2400, 17) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 11), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, centennial, 18) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 12), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, kelling_3100, 19) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 6), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, turner_turbo, 20) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 21), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, mjs_1000, 21) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 7), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, sh_125, 22) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 24), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, sh_30, 23) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 22), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, sh_40, 24) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 23), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, tim, 25) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 25), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, asiastar, 26) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 26), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, x2001, 54) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 27), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, millenium_z1, 55) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 29), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, wizzowow_z99, 56) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 28), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, lev1_leviathan, 84) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 30), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, lev2_cyclops, 85) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 31), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, lev3_pegasus, 86) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 32), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, lev4_chimaera, 87) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 34), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_TRAINS, wizzowow_rocketeer, 88) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 34 * 33), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+

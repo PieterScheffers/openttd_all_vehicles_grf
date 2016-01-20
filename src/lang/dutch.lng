@@ -1,0 +1,5 @@
+##grflangid 0x1F
+STR_GRF_NAME                                                    :Alle voertuigen met lange expiratie-datum
+STR_GRF_DESC                                                    :{ORANGE}Alle voertuigen met lange expiratie-datum{}{BLACK}Deze NewGRF is bedoeld als voorbeeld van de hogere NewGRF.
+STR_PARAM_MAX_DATE_NAME                                         :Introductiedatum laatste voertuig (plus 1948 jaar)
+STR_PARAM_MAX_DATE_DESC                                         :De introductiedatums van de voertuigen worden gelijkmatig over het aantal jaar verdeeld
