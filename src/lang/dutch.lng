@@ -1,5 +1,5 @@
 ##grflangid 0x1F
-STR_GRF_NAME                                                    :Alle voertuigen met lange expiratie-datum
-STR_GRF_DESC                                                    :{ORANGE}Alle voertuigen met lange expiratie-datum{}{BLACK}Deze NewGRF is bedoeld als voorbeeld van de hogere NewGRF.
+STR_GRF_NAME                                                    :Alle voertuigen met langere expiratie-datum
+STR_GRF_DESC                                                    :{ORANGE}Alle voertuigen met langere expiratie-datum{}{BLACK}Met deze GRF kun je in alle klimaten alle voertuigen bouwen. De voertuigen worden gelijkmatig over een in te stellen periode geintroduceerd. De parameter is het aantal jaar na 1948 dat het laatste voertuig geintroduceerd zal worden. Dit kan bv. op 3000 gezet worden zodat in lange spellen, er veel langer nieuwe voertuigen geintroduceerd worden.
 STR_PARAM_MAX_DATE_NAME                                         :Introductiedatum laatste voertuig (plus 1948 jaar)
 STR_PARAM_MAX_DATE_DESC                                         :De introductiedatums van de voertuigen worden gelijkmatig over het aantal jaar verdeeld

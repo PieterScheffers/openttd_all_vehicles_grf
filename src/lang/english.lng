@@ -1,5 +1,5 @@
 ﻿##grflangid 0x01
 STR_GRF_NAME                                                    :All vehicles with longer expiration date
-STR_GRF_DESC                                                    :{ORANGE}All vehicles with longer expiration date{}{BLACK}This NewGRF is intended to provide a coding example for the high-level NewGRF-coding.
+STR_GRF_DESC                                                    :{ORANGE}All vehicles with longer expiration date{}{BLACK}With this GRF installed you have access to all vehicles in all climates. The vehicles are being introduced in the time-frame you can set in the params. The param is the number of years after 1948 that the last vehicle gets introduced. This can for example be set to 3000, so you keep getting new vehicles in long games.
 STR_PARAM_MAX_DATE_NAME                                         :Introduction date last vehicle (plus 1948 years)
 STR_PARAM_MAX_DATE_DESC                                         :The introductiondates of the vehicles are equally divided till the max date.
