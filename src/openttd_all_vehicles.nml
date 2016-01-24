@@ -689,3 +689,666 @@ item (FEAT_AIRCRAFT, dinger_200, 31) {
 }
 
 /* ------ E N D   A I R P L A N E S ------ */
+
+
+/* ------ H E L I C O P T E R S ------ */
+
+item (FEAT_AIRCRAFT, powernaut_helicopter, 40) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 17), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, tricario_helicopter, 38) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 24), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, guru_x2_helicopter, 39) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 70), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+/* ------ E N D   H E L I C O P T E R S ------ */
+
+
+/* ------ S H I P S ------ */
+
+item (FEAT_SHIPS, mps_oil_tanker, 0) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_SHIPS, cs_inc_oil_tanker, 1) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 22), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_SHIPS, mps_passenger_ferry, 2) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 3), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_SHIPS, ffp_passenger_ferry, 3) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 34), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_SHIPS, bakewell_300_hovercraft, 4) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 65), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_SHIPS, chugger_chug_passenger_ferry, 5) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_SHIPS, shivershake_passenger_ferry, 6) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 30), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_SHIPS, yate_cargo_ship, 7) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 4), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_SHIPS, bakewell_cargo_ship, 8) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 35), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_SHIPS, mightymover_cargo_ship, 9) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_SHIPS, powernaut_cargo_ship, 10) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 31), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+/* ------ E N D   S H I P S ------ */
+
+
+/* ------ C A R S ------ */
+
+item (FEAT_ROADVEHS, mightymover_mail_truck, 13) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 10 * 8) / 5 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, mps_mail_truck, 10) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 10 * 8) / 5 * 1), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, powernaught_mail_truck, 14) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 10 * 8) / 5 * 2), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, reynard_mail_truck, 11) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 10 * 8) / 5 * 3), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, wizzowow_mail_truck, 15) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 10 * 8) / 5 * 4), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, perry_mail_truck, 12) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 10 * 8) / 5 * 5), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, ploddyphut_mki_bus, 4) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 100 * 85) / 6 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, mps_regal_bus, 0) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 100 * 85) / 6 * 1), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, hereford_leopard_bus, 1) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 100 * 85) / 6 * 2), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, ploddyphut_mkii_bus, 5) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 100 * 85) / 6 * 3), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, foster_bus, 2) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 100 * 85) / 6 * 4), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, ploddyphut_mkiii_bus, 6) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 100 * 85) / 6 * 5), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, foster_mkii_bus, 3) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( (max_date / 100 * 85) / 6 * 6), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, balogh_armoured_truck, 37) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, uhl_armoured_truck, 38) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 32), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, foster_armoured_truck, 39) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 68), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, balogh_goods_truck, 22) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, craighead_goods_truck, 23) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 33), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, goss_goods_truck, 24) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 67), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, talbott_livestock_van, 19) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, uhl_livestock_van, 20) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 34), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, foster_livestock_van, 21) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 65), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, witcombe_oil_tanker, 16) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, foster_oil_tanker, 17) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 32), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, perry_oil_tanker, 18) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 67), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, balogh_rubber_truck, 55) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, uhl_rubber_truck, 56) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 33), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, rmt_rubber_truck, 57) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 66), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, uhl_water_tanker, 49) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, balogh_water_tanker, 50) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 34), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, mps_water_tanker, 51) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 65), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, balogh_coal_truck, 7) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, uhl_coal_truck, 8) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 35), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, dw_coal_truck, 9) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 68), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, mps_copper_ore_truck, 46) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, uhl_copper_ore_truck, 47) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 32), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, goss_copper_ore_truck, 48) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 67), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, foster_food_van, 40) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, perry_food_van, 41) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 33), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, chippy_food_van, 42) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 66), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, balogh_fruit_truck, 52) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, uhl_fruit_truck, 53) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 31), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, kelling_fruit_truck, 54) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 66), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, hereford_grain_truck, 25) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, thomas_grain_truck, 26) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 32), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, goss_grain_truck, 27) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 65), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, mps_iron_ore_truck, 31) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, uhl_iron_ore_truck, 32) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 34), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, goss_iron_ore_truck, 33) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 67), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, uhl_paper_truck, 43) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, balogh_paper_truck, 44) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 33), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, mps_paper_truck, 45) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 66), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, balogh_steel_truck, 34) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, uhl_steel_truck, 35) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 34), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, kelling_steel_truck, 36) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 68), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, witcombe_wood_truck, 28) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, foster_wood_truck, 29) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 32), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_ROADVEHS, moreland_wood_truck, 30) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + ( max_date / 100 * 67), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+/* ------ E N D   C A R S ------ */
