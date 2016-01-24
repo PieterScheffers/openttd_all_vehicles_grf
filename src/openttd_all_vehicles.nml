@@ -24,6 +24,8 @@ railtypetable {
     RAIL, ELRL, MONO, MGLV,
 }
 
+/* ------ T R A I N S ------ */
+
 item (FEAT_TRAINS, kirby_paul_tank, 00) {
 	property {
 		climates_available: ALL_CLIMATES;
@@ -339,3 +341,351 @@ item (FEAT_TRAINS, wizzowow_rocketeer, 88) {
 	}
 }
 
+/* ------ E N D   T R A I N S ------ */
+
+
+/* ------ A I R P L A N E S ------ */
+
+item (FEAT_AIRCRAFT, ploddyphut_100, 33) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 0), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, sampson_u52, 00) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 1), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, bakewell_cotswald_lb_3, 04) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 2), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, ploddyphut_500, 34) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 3), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, coleman_count, 01) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 4), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, flashbang_x1, 35) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 5), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, kelling_k1, 26) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 6), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, airtaxi_a34_1000, 24) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 7), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, yate_aerospace_yae46, 22) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 8), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, dinger_100, 23) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 9), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, yate_z_shuttle, 25) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 10), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, ffp_dart, 02) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 11), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, yate_aerospace_yac_1_11, 10) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 12), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, bakewell_luckett_lb_9, 06) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 13), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, darwin_200, 12) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 14), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, kelling_k6, 27) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 15), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, flashbang_wizzer, 37) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 16), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, bakewell_luckett_lb80, 07) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 17), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, airtaxi_a32, 20) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 18), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, yate_haugan, 03) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 19), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, darwin_100, 11) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 20), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, darwin_700, 29) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 21), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, juggerplane_m1, 36) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 22), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, darwin_400, 14) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 23), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, airtaxi_a33, 21) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 24), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, bakewell_luckett_lb_8, 05) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 25), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, airtaxi_a31, 19) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 26), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, kelling_k7, 28) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 27), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, bakewell_luckett_lb_11, 09) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 28), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, bakewell_luckett_lb_10, 08) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 29), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, guru_galaxy, 17) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 30), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, darwin_500, 15) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 31), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, darwin_600, 16) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 32), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, airtaxi_a21, 18) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 33), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, ffp_hyperdart_2, 30) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 34), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, dinger_1000, 32) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 35), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, darwin_300, 13) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 36), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+item (FEAT_AIRCRAFT, dinger_200, 31) {
+	property {
+		climates_available: ALL_CLIMATES;
+		introduction_date: date( 1948 + (max_date / 37 * 37), 1, 1);
+		model_life: VEHICLE_NEVER_EXPIRES;
+		vehicle_life: 255;
+	}
+}
+
+/* ------ E N D   A I R P L A N E S ------ */
